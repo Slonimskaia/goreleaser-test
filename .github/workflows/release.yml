@@ -14,7 +14,7 @@ name: goreleaser
 on:
   push:
     tags:
-      - 'test'
+      - 'v*'
 jobs:
   goreleaser:
     runs-on: ubuntu-latest
